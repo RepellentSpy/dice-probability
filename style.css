@@ -1,0 +1,21 @@
+html {
+    font-family: sans-serif;
+}
+
+#calc_button {
+    visibility: hidden;
+    padding: 1rem;
+}
+
+#reset_button {
+    visibility: hidden;
+    padding: 1rem;
+}
+
+#amount_slider {
+    width: 30rem;
+}
+
+#hod {
+    padding: 1rem;
+}

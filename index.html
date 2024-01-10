@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+  <link href='style.css' rel='stylesheet'>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <h1>Experiment</h1>
+
+  <button onclick="seznam()" id="hod">Hodit 10000x 2 kostky a sečíst</button>
+  <button onclick="calculate()" id="calc_button">Co nejčastěji?</button>
+  <button onclick="reset()" id="reset_button">Reset</button>
+
+  <br>
+  <br>
+  <h2>Počet hodů</h2>
+  <input type="range" id="amount_slider" min="0" max="1000000" step="10000" value="10000" oninput="changeAmount()">
+  <br>
+  <h2>Počet kostek na jeden hod</h2>
+  <input type="range" id="cubes_slider" min="1" max="4" step="1" value="2" oninput="changeCubes()">
+
+  <h2 id="vypis"></h2>
+
+
+</body>
+</html>
